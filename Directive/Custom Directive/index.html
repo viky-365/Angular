@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example - example-example80-production</title>
+  
+  <script src="../../lib/js/jquery.min.js"></script>
+  <script src="../../lib/js/angular.min.js"></script>
+  <script src="script.js"></script>
+  <style type="text/css">
+    body{
+        /* Safari 5.1, Chrome 10+ */ 
+        background: -webkit-linear-gradient(90deg, #2F2727, #1a82f7);
+         /* Firefox 3.6+ */ 
+        background: -moz-linear-gradient(90deg, #2F2727, #1a82f7); 
+        /* IE 10 */ 
+        background: -ms-linear-gradient(90deg, #2F2727, #1a82f7); 
+        /* Opera 11.10+ */ 
+        background: -o-linear-gradient(90deg, #2F2727, #1a82f7);
+        margin: 0 auto;
+        width: 960px;
+        height: 610px;
+    }
+  </style>
+</head>
+<body ng-app="docsTemplateUrlDirective">
+    <div ng-controller="Controller" style="margin:10px;">
+    <any-user name="customer.name" address="customer.address" email="'abc@xyz.com'"></any-user>
+    <any-user name="'Viky'" address="'India'" email="'abc@xyz.com'"></any-user>
+    <any-user name="'Kavi'" address="'UK'" email="'abc@xyz.com'"></any-user>    <hr/><hr/>
+    <any-user name="'Sandy'" address="'USA'" email="'abc@xyz.com'"></any-user>    
+    <any-user name="'Rohan'" address="'Canada'" email="'abc@xyz.com'"></any-user>    
+    <any-user name="'Akash'" address="'France'" email="'abc@xyz.com'"></any-user>  
+  </div>
+</body>
+</html>

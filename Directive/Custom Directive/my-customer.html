@@ -1,0 +1,31 @@
+<style>
+.box{
+  width:250px;
+  height:70px;
+  padding:10px;
+  font-family:arial;
+  color:darkslategray;
+  background-color:#f6f6f6;
+  margin:10px;
+  font-size:15px;
+  float:left;
+  border:solid 1px lightgray;
+  box-shadow: 7px 7px 7px #888888;
+  border-radius: 10px 10px;
+  transition: background-color 0.05s, scale 0.05s,box-shadow 0.05s,rotate 1s;
+}
+.colorclass{
+  box-shadow: 10px 10px 15px #888888;
+  background-color:#e5e9f2; 
+  transform:rotate(2deg) scale(1.3,1.3);
+  //transform:scale(1.3,1.3);
+  
+}
+</style>
+ 
+<div id="d1" class="box" ng-click="clickHandler()">
+  <b>Name :</b>&nbsp;{{name}} <br/>
+  <b>Address:</b>&nbsp;{{address}}<br/>
+  <b>Email:</b>&nbsp;{{email}}<br/>
+  flag : {{flag}}
+</div>
